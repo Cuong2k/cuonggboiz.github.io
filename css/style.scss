@@ -2,12 +2,9 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar {
     background: white;
@@ -19,8 +16,8 @@ body {
     }
 }
 
-.text-center {
-    text-align: center;
+h1 {
+    font-family: "Source Serif Pro", sans-serif;
 }
 
 .space-top-2{
@@ -56,6 +53,7 @@ body {
     color: #333333;
     transition: all 0.2s ease-in-out;
     font-size: 12px ;
+    padding: 10px !important;
 }
 
 .custom-btn-book-demo:hover {
@@ -67,6 +65,7 @@ body {
 }
 
 .custom-btn-sign-in {
+    padding: 10px !important;
     border: 1px solid #F8E047;
     box-sizing: border-box;
     border-radius: 3px;
@@ -106,10 +105,8 @@ body {
     .banner-text {
         width: 100%;
         z-index: 10;
-        position: relative;
     }
     h1 {
-        font-style: normal;
         font-weight: 900;
         font-size: 70px;
         line-height: 88px;
@@ -126,7 +123,7 @@ body {
     .box-links {
         padding-top: 40px;
     }
-} 
+}
 .nav-item {
     margin-right: 15px ;
 }
@@ -168,16 +165,15 @@ body {
     .text-intro {
         .intro-title {
             font-size: 35px;
-            line-height: 35px;
+            font-weight: 600;
+            line-height: 40px;
         }
         .intro-detail {
             font-size: 22px;
-            line-height: 22px;
+            line-height: 25px;
         }
     }
 }
-
-
 
 #block-compare {
     .background-compare {
@@ -195,6 +191,7 @@ body {
         }
     }
     .list-compare {
+        margin-bottom: 20px;
         .block-icon {
             position: relative;
             margin-bottom: 20px;
@@ -221,6 +218,16 @@ body {
 }
 
 .teacher-leader-student {
+    .image-teacher-leader, .image-student {
+        .block-image {
+            border: 5px solid black;
+            border-radius: 15px;
+            img {
+                width: 100%;
+                border-radius: 15px;
+            }
+        }
+    }
     .text-detail {
         h1 {
             font-size: 40px;
@@ -232,19 +239,11 @@ body {
             line-height: 25px;
         }
     }
-    .block-image {
-        margin-top: 50px;
-        border: 5px solid black;
-        border-radius: 15px;
-        img {
-            width: 100%;
-        }
-    }
     .btn-watch {
         margin-top: 30px;
         a {
             text-decoration: none;
-            color: black;
+            color: #333333;
             background: #F8E047;
             border-radius: 25px;
             padding: 10px 15px;
@@ -271,15 +270,14 @@ body {
     background: #f9ec90;
     .title h1 {
         font-weight: 900;
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 50px;
     }
     .detail {
         margin-bottom: 30px;
         p {
             font-size: 20px;
             line-height: 25px
-            
         }
     }
     .btn-process {
@@ -288,7 +286,7 @@ body {
             transition: all 0.2s ease-in-out;
             border-radius: 25px;
             background: #FFFF;
-            color: black;
+            color: #333333;
             font-weight: 600;
             font-style: normal;
             span {
@@ -338,6 +336,10 @@ body {
         margin-top: 100px;
         .list-menu {
             margin-bottom: 10px;
+            span {
+                color: #FFFF;
+                margin-right: 10px;
+            }
         }
         .link-contact {
             border-bottom: 2px solid #FFFF;
@@ -359,15 +361,28 @@ body {
             color: #FFFF;
             line-height: 20px;
         }
-        .btn-submit {
-            border: 1px solid #377dff;
-            background: #21B6D3;
-        }
-        .form-group input {
-            font-size: 13px;
-            padding: 10px 15px;
+        
+        .form-group {
+            .your-email {
+                border-radius: 3px 0px 0px 3px;
+                width: 100%;
+            }
+            .btn-submit {
+                width: min-content !important;
+                border: 1px solid #377dff;
+                background: #21B6D3;
+                background-color: #21B6D3 !important;
+                border-radius: 0px 3px 3px 0px;
+                transition: all 0.2s ease-in-out;
+            }
+            .btn-submit:hover {
+                transform: translateY(-2px);
+            }
+            input {
+                font-size: 13px;
+                padding: 10px 15px;
+                margin-right: 1px;
+            }
         }
     }
-    
 }
-

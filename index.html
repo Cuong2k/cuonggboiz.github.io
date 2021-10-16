@@ -1,51 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Edapt Education</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://edapt.education/wp-content/themes/edapt-theme/favicon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <title>Edapt Education</title>
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header >
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="https://edapt.education/wp-content/themes/edapt-theme/assets/imgs/logo.svg" alt=""></a>
-            <div class=" d-flex justify-content-end align-items-center">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link custom-text-menu-v4 text-center" href="#">Home</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link custom-text-menu-v4 text-center" href="#">For Leaders and Teachers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link custom-text-menu-v4 text-center" href="#">For Student</a>
-                </li>
-                <li class="nav-item  ">
-                    <a class="nav-link custom-text-menu-v4 text-center" href="#">Implementaion</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link custom-text-menu-v4 text-center" href="#">The Teams</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link custom-text-menu-v4 text-center custom-btn-book-demo text-center" href="#">BOOK DEMO</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link custom-text-menu-v4 text-center custom-btn-sign-in text-center" href="#">SING IN</a>
-                </li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top nav-destop">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://edapt.education/wp-content/themes/edapt-theme/assets/imgs/logo.svg" title="logo edapt">
+                </a>
+                <button type="button" class="navbar-toggler btn collapsed" aria-label="Toggle navigation" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="dark-blue-text">
+                        <i class="fa fa-bars "></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                          <a class="nav-link custom-text-menu-v4" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="nav-link custom-text-menu-v4" href="#">For Leaders and Teachers</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link custom-text-menu-v4" href="#">For Student</a>
+                      </li>
+                      <li class="nav-item  ">
+                          <a class="nav-link custom-text-menu-v4" href="#">Implementaion</a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="nav-link custom-text-menu-v4" href="#">The Teams</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link custom-text-menu-v4 custom-btn-book-demo text-center" href="#">BOOK DEMO</a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="nav-link custom-text-menu-v4 custom-btn-sign-in text-center" href="#">SING IN</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="pos-f-t">
+            <nav class="navbar">
+                <div class="d-flex justify-content-between" style="width: 100%;">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://edapt.education/wp-content/themes/edapt-theme/assets/imgs/logo-mb.svg">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dark-blue-text">
+                            <i class="fa fa-bars "></i>
+                        </span>
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-light p-4">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link custom-text-menu-v4" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link custom-text-menu-v4" href="#">For Leaders and Teachers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-text-menu-v4" href="#">For Student</a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link custom-text-menu-v4" href="#">Implementaion</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link custom-text-menu-v4" href="#">The Teams</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-text-menu-v4 custom-btn-book-demo" href="#">BOOK DEMO</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link custom-text-menu-v4 custom-btn-sign-in" href="#">SING IN</a>
+                        </li>
+                      </ul>
+                </div>
             </div>
         </div>
-        </nav>
     </header>
+       
     <main role="main">
-        <div class="d-lg-flex position-relative" id="hero-section">
-            <div class="container d-lg-flex align-items-lg-center">
+        <div class="d-flex position-relative" id="hero-section">
+            <div class="container d-flex align-items-lg-center">
                 <div class="row banner-text mx-auto">
                     <div class="mt-auto col-lg-12 col-md-12 col-sm-12 text-center">
                         <div id="box-top-banner">
@@ -64,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-lg-flex" id="block-introduce">
+        <div class="d-flex" id="block-introduce">
             <div class="container space-top-2 space-bottom-2 space-md-2">
                 <div class="row">
                     <div class="intro-image col-12 col-sm-12 col-md-7">
@@ -84,7 +137,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-lg-flex" id="block-compare">
+        <div class="d-flex" id="block-compare">
             <div class="container space-top-2 space-bottom-2 background-compare">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 title-compare">
@@ -145,7 +198,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-lg-flex teacher-leader-student">
+        <div class="d-flex teacher-leader-student">
             <div class="container space-top-2 space-bottom-2 space-md-2">
                 <div class="row">
                     <div class="text-detail col-12 col-sm-12 col-md-5">
@@ -165,7 +218,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-7">
+                    <div class="col-12 col-sm-12 col-md-7 image-teacher-leader">
                         <div class="block-image">
                             <img src="https://edapt.education/wp-content/uploads/2021/07/leader-teacher-home-page.svg" alt="">
                         </div>
@@ -173,10 +226,10 @@
                 </div>
             </div>
         </div>
-        <div class="d-lg-flex teacher-leader-student">
+        <div class="d-flex teacher-leader-student">
             <div class="container space-top-2 space-bottom-2 space-md-2">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-7">
+                    <div class="col-12 col-sm-12 col-md-7 image-student">
                         <div class="block-image">
                             <img src="https://edapt.education/wp-content/uploads/2021/07/student-home-page.svg" alt="">
                         </div>
@@ -200,7 +253,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-lg-flex" id="block-school">
+        <div class="d-flex" id="block-school">
             <div class="container space-top-2 space-bottom-2 space-md-2">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6">
@@ -228,7 +281,8 @@
             </div>
         </div>
     </main>
-    <footer class="d-lg-flex background-tell">
+
+    <footer class="d-flex background-tell">
         <div class="container space-bottom-2 space-top-3">
             <div class="row">
                 <div class="col-12">
@@ -241,7 +295,7 @@
                 </div>
             </div>
             <div class="row box-menu">
-                <div class="col-12 col-sm-12 col-md-3">
+                <div class="col-12 col-sm-12 col-md-3 center-mobile">
                     <div class="list-menu">
                         <a href="#">Edapt</a>
                     </div>
@@ -260,35 +314,47 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
                     <div class="list-menu">
+                        <span>
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </span>
                         <a href="#">Youtube</a>
                     </div>
                     <div class="list-menu">
+                        <span>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </span>
                         <a href="#">Linkedln</a>
                     </div>
                     <div class="list-menu">
+                        <span>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </span>
                         <a href="#">Twitter</a>
                     </div>
                     <div class="list-menu">
+                        <span>
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </span>
                         <a href="#">Facebook</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3"></div>
-                <div class="col-12 col-sm-12 col-md-3">
+                <div class="col-12 col-sm-12 col-md-3 center-mobile">
                     <div class="link-contact">
                         <a href="#">Contact Us</a>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group ">
                         <label for="">Subscribe to our newsletter</label>
                         <form action="">
                             <div class="d-flex">
-                                <input type="email" class="col-12 col-sm-7 col-md-7" placeholder="Type your email here">
-                                <input type="submit" class="btn btn-submit col-12 col-sm-3 col-md-5" value="SUBSCRIBE">
+                                <input type="email" class="your-email" placeholder="Type your email here">
+                                <input type="submit" class="btn-submit" value="SUBSCRIBE">
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6">
-                    <div class="container-fluid block-footer">
+                    <div class="container-fluid block-footer center-mobile">
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-4">
                                 <div class="link-footer">
@@ -310,10 +376,7 @@
                     
                 </div>
             </div>
-        </div>
-        
-        
-        
+        </div> 
     </footer>
 </body>
 </html>

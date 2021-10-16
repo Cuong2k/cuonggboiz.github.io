@@ -1,0 +1,64 @@
+@media screen and (max-width: 1185px) {
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .center-mobile {
+        text-align: center;
+    }
+    .nav-destop {
+        display: none !important;
+    }
+    .pos-f-t {
+        display: block !important;
+    }
+    #box-top-banner {
+        margin-top: 80px !important;
+        h1 {
+            font-size: 50px !important;
+            line-height: 60px;
+        }
+    }
+    #block-introduce {
+        .intro-title {
+            font-size: 30px !important;
+        }
+    }
+    .background-compare {
+        h1 {
+            font-size: 45px !important;
+        }
+    }
+    .teacher-leader-student {
+        .image-teacher-leader {
+            margin-top: 40px;
+        }
+        .image-student {
+            margin-bottom: 40px;
+        }
+    }
+    .box-menu {
+        .list-menu {
+            text-align: center;
+        }
+    }
+    form {
+        font-size: 10px !important;
+        .your-email {
+            width: 100% !important;
+        }
+        .btn-submit {
+            width: fit-content !important;
+        }
+    }
+}
+
+.pos-f-t {
+    display: none;
+}
+
+// @media screen and (max-width: ) {
+    
+// }
